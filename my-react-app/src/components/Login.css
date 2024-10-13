@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.main-container {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 46, 46, 1) 16%,
+    rgba(13, 13, 13, 1) 76%
+  );
+}
+.login-container {
+  background-color: #121212;
+  color: white;
+  width: 59%;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.login-container h2 {
+  padding: 8px 0px;
+  font-weight: bold;
+  word-spacing: 0.5px;
+}
+.Spotify-icon {
+  filter: invert(1);
+  width: 40px;
+}
+.buttons {
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+.buttons button {
+  font-weight: bold;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: 1px solid rgb(121, 121, 121);
+  background-color: #121212;
+  padding: 0px 45px;
+  border-radius: 25px;
+}
+.buttons button:hover {
+  border: 1px solid white;
+}
+.buttons button div {
+  padding-right: 10px;
+  align-items: center;
+  gap: 30px;
+}
+.buttons button div p {
+  margin: 0;
+}
+hr {
+  width: 70%;
+  margin: 30px 0px;
+}
+form {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+form .form-fields {
+  flex-direction: column;
+  gap: 20px;
+}
+form label {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 6px 0px;
+}
+form input {
+  width: 330px;
+  background-color: #121212;
+  color: rgb(194, 194, 194);
+  border: 1px solid rgb(121, 121, 121);
+  padding: 11px 10px;
+  border-radius: 5px;
+}
+form button {
+  background-color: #1ed760;
+  padding: 12px 140px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+}
+form button:hover {
+  transform: scale(1.05);
+  background-color: #2ddd6b;
+}
+form div a {
+  color: white;
+  font-weight: 550;
+}
+form div a:hover {
+  color: #1ed760;
+}
+.forgot-password {
+  padding: 20px 0px;
+}
+.sign-up {
+  gap: 8px;
+  padding: 20px 0px;
+}
+.sign-up div p {
+  color: rgb(170, 170, 170);
+}
+.sign-up div a {
+  font-weight: 600;
+  color: white;
+}
+.footer-bar {
+  text-align: center;
+  padding: 35px 40px;
+  background-color: #121212;
+}
+.footer-bar p {
+  color: #a4b3a4;
+  font-size: 12px;
+  margin: 0;
+}
+.footer-bar p a {
+  color: #a4b3a4;
+}
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(80, 80, 80);
+}
